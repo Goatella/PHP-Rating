@@ -1,0 +1,2 @@
+CREATE TABLE vote (id INT(4) NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR(30), total INTEGER, votes INTEGER);
+INSERT INTO vote (name, total, votes) VALUES ( "First item", 45, 10 ), ( "Second item", 15, 4 ), ( "Third thing", 25, 7 ), ( "The Forth", 20, 5 ), ( "Fifth Thing", 1, 1 )
